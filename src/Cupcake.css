@@ -1,0 +1,425 @@
+
+.cupcake-bg-image {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(Image/dark\ maroon.webp);
+    background-size: cover;
+    background-repeat: none;
+  }
+  
+  .bg {
+    background-color: grey;
+    height: 100%;
+    width: 100%;
+    position: relative;
+  }
+  
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .cupcake-togglebutton{
+    position: absolute;
+    top: 50px;
+    right: 80px;
+    background-color: white;
+    height: 50px;
+    width: 160px;
+    overflow: hidden;
+    overflow-y: auto;
+    text-decoration: none;
+  }
+
+  .cupcake-togglebutton::-webkit-scrollbar{
+    display: none;
+  }
+
+ 
+  
+  .nav-2nd{
+    display: flex;
+    align-items: center;
+  }
+  
+  .cupcake-logo{
+    width: 150px;
+    padding-left: 140px;
+    
+  }
+  .all-products{
+    color: white;
+    font-weight: normal;
+  }
+  
+  
+  
+  .cupcake-above-big{
+    color: burlywood;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 140px;
+    padding-bottom: 0px;
+    position: absolute;
+    top: 160px;
+  
+  }
+  
+  .cupcake-big-text{
+    color: white;
+    font-size: 100px;
+    background-color: transparent;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 140px;
+    position: absolute;
+    top: 150px;
+  }
+  
+  .cupcake-big-button{
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    border-radius: 40px;
+    color: white;
+    border-color: white;
+    background-color: transparent;
+    bottom: 240px;
+    left: 140px;
+  }
+
+  .cupcake-image{
+    position: absolute;
+    top: 60px;
+    right: 400px;
+  }
+  
+  
+  
+  .right{
+    position: absolute;
+    top: 190px;
+    right: 145px;
+  }
+  
+  .right-text{
+    color: white;
+    font-weight: 100;
+  }
+  
+  .right-paragraph{
+    color: white;
+    text-align: left;
+    width: 200px;
+    font-weight: normal;
+  }
+  
+  
+  
+  .chocolate-navlink{
+    color: grey;
+    text-decoration: none;
+    font-size: 100px;
+    position: absolute;
+    bottom: 20px;
+    left: 160px;
+  }
+  .cupcake-navlink{
+    color: grey;
+    text-decoration: none;
+    font-size: 100px;
+    position: absolute;
+    bottom: 20px;
+    left: 180px;
+  }
+  .fruits-navlink{
+    color: grey;
+    text-decoration: none;
+    font-size: 100px;
+    position: absolute;
+    bottom: 20px;
+    left: 200px;
+  }
+  .doughnuts-navlink{
+    color: grey;
+    text-decoration: none;
+    font-size: 100px;
+    position: absolute;
+    bottom: 20px;
+    left: 220px;
+  }
+  .left-arrow{
+    position: absolute;
+    color: white;
+    bottom: 41px;
+    left: 140px
+  
+  }
+  
+  .right-arrow{
+    position: absolute;
+    color: #ffffff;
+    bottom: 42px;
+    left: 245px;
+  
+  }
+  
+  .active{
+    color: white;
+  }
+  
+  
+  
+  .follow-us{
+    position: absolute;
+    color: white;
+    bottom: 20px;
+    right: 250px;
+    font-weight: lighter;
+  }
+  
+  .facebook{
+    position: absolute;
+    color: white;
+    bottom: 43px;
+    right: 200px;
+  }
+  .instagram{
+    position: absolute;
+    color: white;
+    bottom: 43px;
+    right: 150px;
+  }
+  .youtube{
+    position: absolute;
+    color: white;
+    bottom: 43px;
+    right: 100px;
+  }
+  
+   /*Big screen*/
+   @media screen and (max-width: 1300px){
+    .cupcake-image{
+      width: 350px;
+      right: 280px;
+      bottom:80px;
+    }
+
+   
+  }
+
+  /*Smaller screen*/
+  @media screen and (max-width: 1025px) and (min-width:911px){
+    .cupcake-image{
+      width: 320px;
+      right: 90px;
+    }
+
+    .cupcake-big-text{
+      font-size: 70px;
+      top: 160px;
+    }
+
+    
+
+    .cupcake-big-button{
+       top: 450px;
+    }
+
+    .right-text{
+      display: none;
+    }
+
+    .right-paragraph{
+      display: none;
+    }
+
+  
+  }
+  /*Big tablet size*/
+  @media screen and (max-width: 910px) and (min-width:770px){
+    .cupcake-image{
+      display: none;
+    }
+
+    .right-text{
+      display: none;
+    }
+
+    .right-paragraph{
+      display: none;
+    }
+
+    .cupcake-big-button{
+      top: 700px;
+    }
+  }
+
+  @media screen and (max-width: 769px) and (min-width: 541px){
+    .cupcake-image{
+      display: none;
+    }
+
+    .right-text{
+      display: none;
+    }
+
+    .right-paragraph{
+      display: none;
+    }
+
+    .cupcake-big-button{
+      top: 440px;
+    }
+  }
+
+  /*Surface duo*/
+
+  @media screen and (max-width:540px) and (min-width:413px){
+    .bg{
+      width: 100vw;
+      height: 100vh;
+    }
+
+    .chocolate-bg-image{
+      width: 100vw;
+      height: 100vh;
+    }
+
+    .hamburger-menu{
+      position: absolute;
+      right: -130px;
+      top: 20px;
+    }
+
+    .chocolate-cupcake-togglebutton{
+      right: 5px;
+    }
+
+    .cupcake-logo{
+      padding-left: 20px;
+      padding-top: 7px;
+    }
+
+    .all-products{
+      display: none;
+    }
+    
+
+    .cupcake-image{
+      display: none;
+    }
+
+    .cupcake-above-big{
+      font-size: larger;
+      top: 150px;
+    }
+
+    .cupcake-big-text{
+      font-size: 50px;
+      left: 0px;
+      bottom: 0px;
+    }
+
+    .cupacke-big-button{
+      top: 430px;
+    }
+
+    .right-text{
+      display: none;
+    }
+
+    .right-paragraph{
+      display: none;
+    }
+
+    .follow-us{
+      display: none;
+    }
+    
+  }
+
+  @media screen and (max-width: 415px) and (min-width: 377px){
+    .cupcake-logo{
+      padding-left: 10px;
+    }
+
+    .cupcake-above-big{
+      padding-left: 80px;
+    }
+    .cupcake-big-text{
+      font-size: 40px;
+      padding-left: 80px;
+      top: 190px;
+    }
+
+    .all-products{
+      display: none;
+    }
+
+    .cupcake-image{
+      display: none;
+    }
+
+    .right-text{
+      display: none;
+    }
+
+    .right-paragraph{
+      display: none;
+    }
+
+    .follow-us{
+      display: none;
+    }
+
+    .followus-batch{
+      position: absolute;
+      bottom: 50px;
+    }
+
+    .cupcake-big-button{
+      bottom: 500px;
+      left: 80px;
+
+    }
+    .hamburger-menu{
+      position: absolute;
+      right: 0px;
+      top: 10px;
+    }
+
+    .cupcake-togglebutton{
+      right: 5px;
+    }
+
+  }
+
+  @media screen and (max-width: 376px) and (min-width: 100px){
+    .cupcake-image{
+      display: none;
+    }
+
+    .cupcake-logo{
+      padding-left: 10px;
+    }
+
+    .cupcake-above-big{
+      padding-left: 80px;
+    }
+
+    .cupcake-big-text{
+      font-size:40px;
+      top: 190px;
+      padding-left: 80px;
+    }
+
+    .cupcake-big-button{
+      bottom: 380px;
+      left: 80px;
+    }
+  }
+  
+  
+  
+
+  
